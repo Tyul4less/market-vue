@@ -1,27 +1,18 @@
 <template>
-  <div id="app">
-    <Test />
-  </div>
+    <Login />
 </template>
 
 <script>
-import Test from './views/Test'
+import Login from './views/login/Login'
 
 export default {
   name: 'App',
   components: {
-    Test
+    Login
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
